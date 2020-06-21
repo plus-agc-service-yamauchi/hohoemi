@@ -1,0 +1,8 @@
+Action myphp-cgi /php.cgi
+#AddHandler myphp-cgi .html
+<Files ~ "^index\.html?$">
+  AddHandler myphp-cgi .html .htm
+</Files>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]

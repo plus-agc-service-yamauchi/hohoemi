@@ -1,4 +1,4 @@
 User-Agent:*
 Disallow:
 
-Sitemap:https://www.hohoemi-aomori.com/sitemap.xml
+Sitemap:http://www.hohoemi-aomori.com/sitemap.xml

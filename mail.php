@@ -4,7 +4,7 @@ if (version_compare(PHP_VERSION, '5.1.0', '>=')) {
     date_default_timezone_set('Asia/Tokyo');
 }
 
-$site_top = "https://hohoemi-aomori.com/";
+$site_top = "http://hohoemi-aomori.com/";
 
 $to = "syafuku-hohoemi@hohoemi-aomori.com";
 
@@ -24,7 +24,7 @@ $confirmDsp = 1;
 
 $jumpPage = 0;
 
-$thanksPage = "https://hohoemi-aomori.com/";
+$thanksPage = "http://hohoemi-aomori.com/";
 
 $requireCheck = 1;
 
@@ -56,7 +56,7 @@ $mailSignature = <<< FOOTER
 〒036-0162 青森県平川市館山前田80番地1
 TEL：0172-44-0033 　FAX：0172-44-0034
 E-mail:syafuku-hohoemi@hohoemi-aomori.com
-URL: https://hohoemi-aomori.com/
+URL: http://hohoemi-aomori.com/
 ──────────────────────
 
 FOOTER;
@@ -143,30 +143,30 @@ if (($confirmDsp == 0 || $sendmail == 1) && $empty_flag != 1) {
   <meta name="keywords" content="社会福祉法人,ほほえみ,青森県,平川市,カリフラワー,おらんど,uniメゾン,アピール">
   <meta name="description" content="【社会福祉法人ほほえみ】思いをうまく伝えられなかったり 体が思うように動かなかったり 障がいが有るとか無いとか、そんなことよりも あなたが抱える、生活の中の 「不便さ」や「もどかしさ」を 解消していく それが私たちほほえみの仕事です。">
   <meta name="author" content="株式会社プラス">
-  <link rel="canonical" href="https://hohoemi-aomori.com">
+  <link rel="canonical" href="http://hohoemi-aomori.com">
   <!-- OGP -->
   <meta property="og:site_name" content="社会福祉法人ほほえみ">
   <meta property="og:title" content="社会福祉法人ほほえみ-苦楽を共にして生きていく- | 青森県平川市">
   <meta property="og:description" content="【社会福祉法人ほほえみ】思いをうまく伝えられなかったり 体が思うように動かなかったり 障がいが有るとか無いとか、そんなことよりも あなたが抱える、生活の中の 「不便さ」や「もどかしさ」を 解消していく それが私たちほほえみの仕事です。">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://hohoemi-aomori.com">
-  <meta property="og:image" content="https://hohoemi-aomori.com/images/logo.png">
+  <meta property="og:url" content="http://hohoemi-aomori.com">
+  <meta property="og:image" content="http://hohoemi-aomori.com/images/logo.png">
   <meta property="fb:app_id" content="192837465091827" />
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="https://hohoemi-aomori.com">
-  <meta name="twitter:image" content="https://hohoemi-aomori.com/images/logo.png">
+  <meta name="twitter:site" content="http://hohoemi-aomori.com">
+  <meta name="twitter:image" content="http://hohoemi-aomori.com/images/logo.png">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
   <!-- web clip -->
-  <link rel="apple-touch-icon" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="57x57" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="http://hohoemi-aomori.com/images/logo.png">
   <!-- CSS dependencies -->
   <link rel="stylesheet" type="text/css" href="css/import.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
@@ -225,30 +225,30 @@ if (($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &
   <meta name="keywords" content="社会福祉法人,ほほえみ,青森県,平川市,カリフラワー,おらんど,uniメゾン,アピール">
   <meta name="description" content="【社会福祉法人ほほえみ】思いをうまく伝えられなかったり 体が思うように動かなかったり 障がいが有るとか無いとか、そんなことよりも あなたが抱える、生活の中の 「不便さ」や「もどかしさ」を 解消していく それが私たちほほえみの仕事です。">
   <meta name="author" content="株式会社プラス">
-  <link rel="canonical" href="https://hohoemi-aomori.com">
+  <link rel="canonical" href="http://hohoemi-aomori.com">
   <!-- OGP -->
   <meta property="og:site_name" content="-">
   <meta property="og:title" content="社会福祉法人ほほえみ-苦楽を共にして生きていく- | 青森県平川市">
   <meta property="og:description" content="【社会福祉法人ほほえみ】思いをうまく伝えられなかったり 体が思うように動かなかったり 障がいが有るとか無いとか、そんなことよりも あなたが抱える、生活の中の 「不便さ」や「もどかしさ」を 解消していく それが私たちほほえみの仕事です。">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://hohoemi-aomori.com">
-  <meta property="og:image" content="https://hohoemi-aomori.com/images/logo.png">
+  <meta property="og:url" content="http://hohoemi-aomori.com">
+  <meta property="og:image" content="http://hohoemi-aomori.com/images/logo.png">
   <meta property="fb:app_id" content="192837465091827" />
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="https://hohoemi-aomori.com">
-  <meta name="twitter:image" content="https://hohoemi-aomori.com/images/logo.png">
+  <meta name="twitter:site" content="http://hohoemi-aomori.com">
+  <meta name="twitter:image" content="http://hohoemi-aomori.com/images/logo.png">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
   <!-- web clip -->
-  <link rel="apple-touch-icon" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="57x57" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://hohoemi-aomori.com/images/logo.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="http://hohoemi-aomori.com/images/logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="http://hohoemi-aomori.com/images/logo.png">
   <!-- CSS dependencies -->
   <link rel="stylesheet" type="text/css" href="css/import.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">

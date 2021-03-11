@@ -2,6 +2,19 @@
 <html lang="ja">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187246855-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-187246855-1');
+    </script>
+    <!-- IE -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,14 +48,1817 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://hohoemi-aomori.com/images/logo.png" />
     <!-- CSS  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jpn.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fatNav.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
 </head>
 
-<body>
-    <div class="container">
-        <div class="d-flex justify-content-center align-items-center">
-            <h1>サイトメンテナンス中です。</h1>
+<body class="text-center">
+    <div class="fat-nav">
+        <div class="fat-nav__wrapper">
+            <ul>
+                <li class="d-none d-md-block"><a href="#top_pc">ホーム</a></li>
+                <li class="d-block d-md-none"><a href="#top_sp">ホーム</a></li>
+                <li><a href="#about">ほほえみについて</a></li>
+                <li class="d-none d-md-block">
+                    <a href="#message_pc">施設長挨拶</a>
+                </li>
+                <li class="d-block d-md-none">
+                    <a href="#message_sp">施設長挨拶</a>
+                </li>
+                <li><a href="#facility">施設案内</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
         </div>
     </div>
+    <!-- /header -->
+    <!-- PCヘッダ -->
+    <div class="d-flex align-items-center" id="top_pc">
+        <div class="container-fluid d-none d-md-block">
+            <div class="row justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <div class="inner">
+                        <div class="row">
+                            <div class="col-md-12" style="margin-top: -40%">
+                                <div class="textcontainer">
+                                    <span class="particletext confetti text-orange">SMILE </span>HAS SPREAD THE PACKAGE.
+                                </div>
+                                <h1 class="mb-5">
+                                    <img src="images/logo.png" alt="ロゴ" class="w-25" />
+                                </h1>
+                                <div class="wow bounce infinite" data-wow-duration="3s">
+                                    <i class="d-block fa fa-angle-down pt-5 fa-3x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <video class="embed-responsive-item" src="movie/hohoemi_summer.mp4" playsinline autoplay loop muted allowfullscreen></video>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /PCヘッダ -->
+    <!-- スマホヘッダ -->
+    <div class="d-block d-md-none" id="top_sp">
+        <div style="position: relative; z-index: -100000">
+            <video class="w-100" src="movie/sp/movie_new.mov" playsinline autoplay loop muted allowfullscreen></video>
+            <div class="overlay"></div>
+        </div>
+        <div class="pages parent" style="position: absolute; top: 0">
+            <p>
+                <span class="particletext confetti text-orange">SMILE </span>HAS SPREAD THE PACKAGE.
+            </p>
+            <img src="images/logo.png" alt="" class="w-75" />
+            <p>
+                <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#collapse_sp" aria-expanded="false" aria-controls="collapseExample">
+                    新着情報
+                </button>
+            </p>
+            <div class="wow bounce infinite" data-wow-duration="3s">
+                <a href="#"></a><i class="d-block fa fa-angle-down pt-5 fa-3x"></i>
+            </div>
+        </div>
+    </div>
+    <!-- /スマホヘッダ -->
+    <div class="py-5 bg-light parent" id="about">
+        <div class="container">
+            <div class="row parent">
+                <div class="col-md-5 mb-5 wow fadeIn" data-wow-delay="2s">
+                    <p class="lead text-left lh-2">
+                        思いをうまく伝えられなかったり
+                        <br /> 体が思うように動かなかったり <br /> 障がいが有るとか、無いとか、 <br />そんなことよりも
+                        <br />
+                        <br /> あなたが抱える、生活の中の <br />「不便さ」や「もどかしさ」を
+                        <br />解消していく
+                        <br />
+                        <br /> それが私たちほほえみの仕事です。
+                        <br />
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 justify-content-center wow fadeIn" data-wow-delay="2s">
+                    <ul class="list-unstyled list-inline scroll-animations">
+                        <li class="circle list-inline-item bg-orange-touka wow slideInLeft" data-wow-delay="2s">
+                            就労移行支援
+                        </li>
+                        <li class="circle list-inline-item bg-primary-touka wow slideInLeft" data-wow-delay="2s">
+                            就労継続支援A型
+                        </li>
+                        <li class="circle list-inline-item bg-secondary-touka wow slideInLeft" data-wow-delay="2s">
+                            就労継続支援B型
+                        </li>
+                        <li class="circle list-inline-item bg-primary-touka wow slideInLeft" data-wow-delay="2s">
+                            共同生活援助
+                        </li>
+                        <li class="circle list-inline-item bg-orange-touka wow slideInLeft" data-wow-delay="2s">
+                            生活介護
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled list-inline scroll-animations">
+                        <li class="circle list-inline-item bg-orange-touka wow slideInRight" data-wow-delay="2s">
+                            児童発達支援センター
+                        </li>
+                        <li class="circle list-inline-item bg-primary-touka wow slideInRight" data-wow-delay="2s">
+                            地域活動支援センター
+                        </li>
+                        <li class="circle list-inline-item bg-secondary-touka wow slideInRight" data-wow-delay="2s">
+                            <span style="font-size: 95%">指定特定相談支援事業</span>
+                        </li>
+                        <li class="circle list-inline-item bg-primary-touka wow slideInRight" data-wow-delay="2s">
+                            <span style="font-size: 95%">指定障害児相談支援事業</span>
+                        </li>
+                        <li class="circle list-inline-item bg-orange-touka wow slideInRight" data-wow-delay="2s">
+                            <span style="font-size: 95%">指定一般相談支援事業</span>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled list-inline scroll-animations">
+                        <li class="circle list-inline-item bg-orange-touka wow slideInRight" data-wow-delay="2s">
+                            放課後等デイサービス
+                        </li>
+                        <li class="circle list-inline-item bg-primary-touka wow slideInRight" data-wow-delay="2s">
+                            保育所等訪問支援
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-lg mt-5 mx-1 btn-outline-dark" data-toggle="modal" data-target="#aboutus">
+            ほほえみについて<span class="ml-2 wow fadeIn infinite">&gt;</span>
+        </button>
+    </div>
+    <div class="section-parallax section-light" style="background-image: url('images/2.jpg'); background-size: cover">
+        <div class="container-fluid mb-5">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-3 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item mx-auto" src="https://www.youtube.com/embed/qmIvEgHV-Os" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item mx-auto" src="https://www.youtube.com/embed/VzDGCWXCpwk" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item mx-auto" src="https://www.youtube.com/embed/CK-e8slrgf4" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item mx-auto" src="https://www.youtube.com/embed/XNIcNs2EWhE" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PC -->
+    <div class="py-5 bg-light pages d-none d-md-block" id="message_pc" style="background: url('images/3.jpg') no-repeat; background-size: cover">
+        <div class="container-fluid pl-5">
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <h3 class="normal">今井 隆太</h3>
+                    <p>社会福祉法人 ほほえみ 法人統括施設長</p>
+                    <p class="h4">
+                        <span class="ul-orange">「苦楽を共にして生きていく」</span>
+                    </p>
+                    <p class="mb-4">
+                        どんなに時代や環境が変わろうとも
+                        <br />この理念が未来のほほえみにも存在し続けることを私は願っています。
+                    </p>
+                    <button type="button" class="btn btn-lg mx-1 btn-outline-dark" data-toggle="modal" data-target="#philosophy">
+                        ほほえみのビジョン<span class="ml-2 wow fadeIn infinite">&gt;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /PC -->
+    <!-- スマホ -->
+    <div class="py-5 bg-light pages d-block d-md-none section-light" id="message_sp" style="
+        background: url('images/sp/3.jpg') no-repeat;
+        background-size: 100% 100%;
+      ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <h3 class="normal">今井 隆太</h3>
+                    <p>社会福祉法人 ほほえみ 法人統括施設長</p>
+                    <p class="h4">
+                        <span class="ul-orange">「苦楽を共にして生きていく」</span>
+                    </p>
+                    <p class="mb-4">
+                        どんなに時代や環境が変わろうとも
+                        <br />この理念が未来のほほえみにも存在し続けることを私は願っています。
+                    </p>
+                    <button type="button" class="btn btn-lg mx-1 btn-outline-dark" data-toggle="modal" data-target="#philosophy">
+                        ほほえみのビジョン<span class="ml-2 wow fadeIn infinite">&gt;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /スマホ -->
+    <div class="py-5 section-parallax h-100 section-light d-none d-md-block" style="background-image: url('images/7.jpg'); background-size: cover"></div>
+    <div class="py-5 text-center text-dark" id="facility">
+        <div class="container-fluid">
+            <!-- PC -->
+            <div class="d-none d-md-block">
+                <div class="row vh-50">
+                    <div class="col" style="
+                background: url('images/1-2.jpg');
+                background-size: 100% 100%;
+                padding: 0;
+              ">
+                        <div class="parent bg-mask">
+                            <h3 class="my-3 normal">カリフラワー</h3>
+                            <ul class="text-left">
+                                <li>住所：青森県平川市館山前田80番地1</li>
+                                <li>TEL：0172−44−0033（法人本部共通）</li>
+                                <li>FAX：0172−44−0034（法人本部共通）</li>
+                                <li>メール：</li>
+                            </ul>
+                            <p>
+                                <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="modal" data-target="#facility1" aria-expanded="false" aria-controls="collapseExample">
+                                    詳細
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col" style="
+                background: url('images/1-3.jpg');
+                background-size: 100% 100%;
+                padding: 0;
+              ">
+                        <div class="parent bg-mask">
+                            <h3 class="my-3 normal">おらんど「all round」</h3>
+                            <ul class="text-left">
+                                <li>住所：青森県平川市館山前田80番地4</li>
+                                <li>TEL：0172−44−0033（法人本部共通）</li>
+                                <li>FAX：0172−44−0034（法人本部共通）</li>
+                                <li>メール：</li>
+                            </ul>
+                            <p>
+                                <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="modal" data-target="#facility2" aria-expanded="false" aria-controls="collapseExample">
+                                    詳細
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col" style="
+                background: url('images/1-5.jpg');
+                background-size: 100% 100%;
+                padding: 0;
+              ">
+                        <div class="parent bg-mask">
+                            <h3 class="my-3 normal">uniメゾン</h3>
+                            <ul class="text-left">
+                                <li>住所：青森県平川市館山前田80番地5</li>
+                                <li>TEL：0172−55−8008</li>
+                                <li>FAX：無</li>
+                                <li>メール：</li>
+                            </ul>
+                            <p>
+                                <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="modal" data-target="#facility4" aria-expanded="false" aria-controls="collapseExample">
+                                    詳細
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col" style="
+                background: url('images/1-6.JPG');
+                background-size: 100% 100%;
+                padding: 0;
+              ">
+                        <div class="parent bg-mask">
+                            <h3 class="my-3 normal">子ども発達サポートnico</h3>
+                            <ul class="text-left">
+                                <li>住所：青森県平川市館山前田80番地2</li>
+                                <li>TEL：0172−44−0033（法人本部共通）</li>
+                                <li>FAX：0172-44-0034（法人本部共通）</li>
+                                <li>メール：</li>
+                            </ul>
+                            <p>
+                                <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="modal" data-target="#facility5" aria-expanded="false" aria-controls="collapseExample">
+                                    詳細
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /PC -->
+            <!-- スマホ -->
+            <div class="d-block d-md-none">
+                <div class="row">
+                    <div class="col-md-3" style="
+                background: url('images/1-2.jpg');
+                background-size: 100% 100%;
+                padding: 0;
+              ">
+                        <div class="parent bg-mask">
+                            <h3 class="my-3 normal">カリフラワー</h3>
+                            <ul class="text-left">
+                                <li>住所：青森県平川市館山前田80番地1</li>
+                                <li>TEL：0172−44−0033（法人本部共通）</li>
+                                <li>FAX：0172−44−0034（法人本部共通）</li>
+                                <li>メール：</li>
+                            </ul>
+                            <p>
+                                <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="modal" data-target="#facility1" aria-expanded="false" aria-controls="collapseExample">
+                                    詳細
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="
+                background: url('images/1-3.jpg');
+                background-size: 100% 100%;
+                padding: 0;
+              ">
+                        <div class="parent bg-mask">
+                            <h3 class="my-3 normal">おらんど「all round」</h3>
+                            <ul class="text-left">
+                                <li>住所：青森県平川市館山前田80番地4</li>
+                                <li>TEL：0172−44−0033（法人本部共通）</li>
+                                <li>FAX：0172−55−7088（おらんど専用）</li>
+                                <li>メール：</li>
+                            </ul>
+                            <p>
+                                <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="modal" data-target="#facility2" aria-expanded="false" aria-controls="collapseExample">
+                                    詳細
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="
+                background: url('images/1-5.jpg');
+                background-size: 100% 100%;
+                padding: 0;
+              ">
+                        <div class="parent bg-mask">
+                            <h3 class="my-3 normal">uniメゾン</h3>
+                            <ul class="text-left">
+                                <li>住所：青森県平川市館山前田80番地5</li>
+                                <li>TEL：0172−55−8008</li>
+                                <li>FAX：無</li>
+                                <li>メール：</li>
+                            </ul>
+                            <p>
+                                <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="modal" data-target="#facility4" aria-expanded="false" aria-controls="collapseExample">
+                                    詳細
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="
+                background: url('images/1-6.JPG');
+                background-size: 100% 100%;
+                padding: 0;
+              ">
+                        <div class="parent bg-mask">
+                            <h3 class="my-3 normal">子ども発達サポートnico</h3>
+                            <ul class="text-left">
+                                <li>住所：青森県平川市館山前田80番地2</li>
+                                <li>TEL：0172−44−0033（法人本部共通）</li>
+                                <li>FAX：0172-44-0034（法人本部共通）</li>
+                                <li>メール：</li>
+                            </ul>
+                            <p>
+                                <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="modal" data-target="#facility5" aria-expanded="false" aria-controls="collapseExample">
+                                    詳細
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /スマホ -->
+        </div>
+    </div>
+    <div class="bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <div class="slick-slider">
+                        <div>
+                            <img src="images/slider/1.JPG" alt="スライド1" class="w-100" data-toggle="modal" data-target="#myModal" style="cursor: pointer" />
+                        </div>
+                        <div>
+                            <img src="images/slider/2.JPG" alt="スライド2" class="w-100" data-toggle="modal" data-target="#myModal2" style="cursor: pointer" />
+                        </div>
+                        <div>
+                            <img src="images/slider/3.JPG" alt="スライド3" class="w-100" data-toggle="modal" data-target="#myModal3" style="cursor: pointer" />
+                        </div>
+                        <div>
+                            <img src="images/slider/4.JPG" alt="スライド4" class="w-100" data-toggle="modal" data-target="#myModal4" style="cursor: pointer" />
+                        </div>
+                        <div>
+                            <img src="images/slider/5.JPG" alt="スライド5" class="w-100" data-toggle="modal" data-target="#myModal5" style="cursor: pointer" />
+                        </div>
+                        <div>
+                            <img src="images/slider/6.JPG" alt="スライド6" class="w-100" data-toggle="modal" data-target="#myModal6" style="cursor: pointer" />
+                        </div>
+                        <div>
+                            <img src="images/slider/7.JPG" alt="スライド7" class="w-100" data-toggle="modal" data-target="#myModal7" style="cursor: pointer" />
+                        </div>
+                        <div>
+                            <img src="images/slider/15.JPG" alt="スライド8" class="w-100" data-toggle="modal" data-target="#myModal8" style="cursor: pointer" />
+                        </div>
+                        <div>
+                            <img src="images/slider/9.JPG" alt="スライド9" class="w-100" data-toggle="modal" data-target="#myModal9" style="cursor: pointer" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5 section-parallax h-100 section-light d-none d-md-block" style="background-image: url('images/5.jpg'); background-size: cover"></div>
+    <footer id="contact">
+        <div class="py-5 section-dark" style="background-image: url('images/1.jpg')">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 text-white mb-5">
+                        <h4 class="normal">社会福祉法人ほほえみ</h4>
+                        <p>
+                            〒036-0162 青森県平川市館山前田80番地1
+                            <br />
+                            <i class="fas fa-phone"></i> 0172-44-0033&nbsp;&nbsp;<i class="fas fa-fax"></i> 0172-44-0034
+                        </p>
+                        <p>
+                            <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#myModal10" aria-expanded="false" aria-controls="collapseExample">
+                                プライバシーポリシー
+                            </button>
+                        </p>
+                        <a href="https://www.facebook.com/%E7%A4%BE%E4%BC%9A%E7%A6%8F%E7%A5%89%E6%B3%95%E4%BA%BA%E3%81%BB%E3%81%BB%E3%81%88%E3%81%BF-608010699300614/" class="mx-1 text-primary"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a href="https://www.instagram.com/syafukuhohoemi/ " class="mx-1 text-danger"><i class="fab fa-instagram fa-2x"></i></a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 text-left mb-5">
+                        <h4 class="normal text-center">お問い合わせフォーム</h4>
+                        <p>
+                            必要事項をご記入の上、送信ボタンを押してください。
+                            <br />後日担当者よりご連絡差し上げます。
+                        </p>
+                        <form class="form" method="post" action="mail.php">
+                            <div class="form-group">
+                                <label for="InputName">お名前</label>
+                                <input name="お名前" class="form-control form-control-lg" id="InputName" placeholder="お名前" />
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="InputEmail1">Eメール</label>
+                                <input name="Email" type="email" class="form-control form-control-lg" id="InputEmail1" placeholder="Eメール" />
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="Textarea">内容</label>
+                                <textarea name="内容" class="form-control form-control-lg" id="Textarea" rows="3" placeholder="お問い合わせ内容"></textarea>
+                            </div>
+                            <button type="submit" class="mt-3 btn btn-lg btn-outline-light">
+                                送信
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-lg-5 col-md-12 text-white">
+                        <h4 class="normal">アクセス</h4>
+                        <p>
+                            弘前駅より <br /> ・弘南鉄道弘南線 黒石行「館田駅」下車 徒歩17分 <br /> ・県道109号線経由 車12分
+                        </p>
+                        <div class="embed-responsive embed-responsive-16by9 rounded">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12118.184130368116!2d140.5362495!3d40.5957749!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa54676b1a5407f29!2z44Kr44Oq44OV44Op44Ov44O8!5e0!3m2!1sja!2sjp!4v1529635929638" width="800" height="600"
+                                frameborder="0" style="border: 0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mt-3 text-center">
+                        <p>
+                            © Copyright 2018<span class="d-block d-md-none"><br /></span> 社会福祉法人ほほえみ - All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+    <!-- Modal -->
+    <div class="modal fade" id="aboutus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ほほえみについて</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-left">
+                    <!-- タブ部分 -->
+                    <ul id="myTab" class="nav nav-tabs nav-justified" role="tablist">
+                        <li class="nav-item">
+                            <a href="#overview" id="overview-tab" class="nav-link active text-dark" role="tab" data-toggle="tab" aria-controls="overview" aria-selected="true">法人概要</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#history" id="history-tab" class="nav-link text-dark" role="tab" data-toggle="tab" aria-controls="history" aria-selected="false">沿革</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#service" id="service-tab" class="nav-link text-dark" role="tab" data-toggle="tab" aria-controls="service" aria-selected="false">サービス概要</a>
+                        </li>
+                    </ul>
+                    <!-- パネル部分 -->
+                    <div id="myTabContent" class="tab-content mt-3">
+                        <div id="overview" class="tab-pane fade show active" role="tabpanel" aria-labelledby="overview-tab">
+                            <table class="table table-striped table-light table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th>法人概要</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="col" class="normal">法人名</th>
+                                        <td>社会福祉法人ほほえみ</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">代表者</th>
+                                        <td>理事長　今井　隆一</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">事業内容</th>
+                                        <td>
+                                            第二種社会福祉事業 <br />就労移行支援：定員10名
+                                            <br />就労継続支援A型：定員10名
+                                            <br />就労継続支援B型：定員40名
+                                            <br />児童発達支援センター：定員10名
+                                            <br />共同生活援助：定員13名
+                                            <br />地域活動支援センターⅠ型（平川市委託事業）
+                                            <br />指定特定相談支援 <br />指定障害児相談支援
+                                            <br />指定一般相談支援 <br />放課後等デイサービス
+                                            <br />保育所等訪問支援
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">住所</th>
+                                        <td>〒036-0162 青森県平川市館山前田80番地1</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">TEL</th>
+                                        <td>0172-44-0033</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">FAX</th>
+                                        <td>0172-44-0034</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="history" class="tab-pane fade" role="tabpanel" aria-labelledby="history-tab">
+                            <table class="table table-striped table-light table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th>沿革</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="col" class="normal">平成7年</th>
+                                        <td>4月</td>
+                                        <td>小規模共同作業所 開設（運営主体：（株）アピール）</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">平成15年</th>
+                                        <td>3月</td>
+                                        <td>社会福祉法人ほほえみ　認可（知事省令第570号）</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">平成24年</th>
+                                        <td>4月</td>
+                                        <td>就労継続支援B型 事業開始</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">平成27年</th>
+                                        <td>9月</td>
+                                        <td>就労移行支援 事業開始</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">平成28年</th>
+                                        <td>4月</td>
+                                        <td>共同生活援助 事業開始</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">平成29年</th>
+                                        <td>4月</td>
+                                        <td>生活介護<br />就労継続支援A型 事業開始</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">平成30年</th>
+                                        <td>4月</td>
+                                        <td>指定特定相談支援 事業開始</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal"></th>
+                                        <td>5月</td>
+                                        <td>児童発達支援 事業開始</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal"></th>
+                                        <td>8月</td>
+                                        <td>平川市地域活動支援センター 委託開始</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">平成31年</th>
+                                        <td>4月</td>
+                                        <td>放課後等デイサービス 事業開始</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">令和1年</th>
+                                        <td>7月</td>
+                                        <td>指定一般相談支援 事業開始</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal"></th>
+                                        <td>9月</td>
+                                        <td>保育所等訪問支援 事業開始</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="service" class="tab-pane fade" role="tabpanel" aria-labelledby="service-tab">
+                            <table class="table table-striped table-light table-borderless table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" colspan="3">障がい福祉サービス概要</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="col" class="normal" width="20%">
+                                            就労移行支援
+                                        </th>
+                                        <td>
+                                            就労を希望する65歳未満の障害者であって、通常の事業所に雇用されることが可能と見込まれるものにつき行われる、生産活動、職場体験その他の活動の機会の提供その他の就労に必要な知識及び能力の向上のために必要な訓練、求職活動に関する支援、その適正に応じた職場の開拓、就職後における職場への定着のために必要な相談その他の必要な支援。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">就労継続支援A型</th>
+                                        <td>
+                                            通常の事業所に雇用されることが困難な65歳未満の障害者のうち適切な支援により雇用契約等に基づき就労する者に行われる、生産活動その他の活動の機会の提供その他の就労に必要な知識及び能力の向上のために必要な訓練その他の必要な支援。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">就労継続支援B型</th>
+                                        <td>
+                                            通常の事業所に雇用されることが困難な障害者のうち通常の事業所に雇用されていた障害者であってその年齢、心身の状態その他の事情により引き続き当該事業所に雇用されることが困難となった者、就労移行支援によっても通常の事業所に雇用されるに至らなかった者につき行われる、生産活動その他の活動の機会の提供その他の就労に必要な知識及び能力の向上のために必要な訓練その他の必要な支援。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">
+                                            共同生活援助（グループホーム）
+                                        </th>
+                                        <td>
+                                            共同生活を営むべき住居において入居している障害者につき、主として夜間において行われる相談、入浴、排泄又は食事の介護その他の必要な日常生活上の援助。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">生活介護</th>
+                                        <td>
+                                            主として昼間において、入浴、排泄及び食事等の介護、調理、洗濯及び掃除等の家事並びに生活等に関する相談及び助言その他の必要な日常生活上の支援、創作活動又は生産活動の機会の提供その他の身体機能又は生活能力の向上のために行われる必要な援助。
+                                            <br />※対象は障害支援区分３以上の者（50歳以上の者は区分２以上でも利用可）
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">児童発達支援センター</th>
+                                        <td>
+                                            日常生活における基本的な動作の指導、知識技能の付与、集団生活への適応訓練、その他の必要な支援を行う。
+                                            <br />※対象…療育の観点から集団療育及び個別療育を行う必要があると認められる未就学の障がい児（具体的には次のような例）
+                                            <br /> ① 市町村が行う乳幼児健診等で療育の必要性があると認められた児童
+                                            <br />② 保育所や幼稚園に在籍しているが、併せて、指定児童発達支援センターにおいて、専門的な療育・訓練を受ける必要があると認められた児童
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">
+                                            地域活動支援センター（平川市委託事業）
+                                        </th>
+                                        <td>
+                                            障害がある方に創作的活動・生産活動機会を提供することにより、社会との交流を促進し、自立した生活を支援する施設。障害者総合支援法に基づいて市町村が行う地域生活支援事業の一つ。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">
+                                            指定特定相談支援事業・指定障害児相談支援事業
+                                        </th>
+                                        <td>
+                                            障害福祉サービスの申請若しくは変更の申請に係る障害者若しくは障害児の保護者又は地域相談支援の申請に係る障害者の心身の状況、その置かれている環境、サービスの利用に関する意向その他の事情を勘案し、利用する障害福祉サービス又は地域相談支援の種類及び内容等を記載した「サービス等利用計画案」を作成し、市町村に提出する。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">指定一般相談支援事業</th>
+                                        <td>
+                                            ・地域移行支援
+                                            <br />入所施設に入所している障害者、又は精神科病院に入院している精神障害者等について、住居の確保その他の地域における生活に移行するための活動に関する相談、地域移行のための障害福祉サービス事業所等への同行支援等を行った場合は、地域移行支援サービス費が支給される。
+                                            <br />・地域定着支援
+                                            <br />居宅において単身等で生活する障害者であって、地域生活を継続していくための常時の連絡体制の確保による緊急時等の支援体制が必要と見込まれる者について、常時の連絡体制を確保し、障害の特性に起因して生じた緊急の事態等に緊急訪問や緊急対応等の各種支援を行う。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">放課後等デイサービス</th>
+                                        <td>
+                                            授業の終了後または学校の休業日に、児童発達支援センター等の施設に通い、生活能力の向上のために必要な訓練、社会との交流の促進その他必要な支援を行う。<br />※対象…学校教育法１条に規定している学校（幼稚園及び大学を除く）に就学しており、授業の終了後または休業日に支援が必要と認められた児童
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="normal">保育所等訪問支援</th>
+                                        <td>
+                                            保育所等を訪問し、児童に対して、集団生活への適応のための専門的な支援その他必要な支援を行う。<br />※対象…保育所、幼稚園、小学校、特別支援学校、認定こども園その他児童が集団生活を営む施設に通う児童であって、専門的な支援が必要と認められた児童
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="philosophy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        ほほえみのビジョン
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-left">
+                    <div class="mb-3">
+                        視力が落ちればメガネをかけることと同じように、
+                        <p class="lh-3 note">
+                            歩行が困難なら車椅子や人の手を。
+                            <br /> 言葉がうまく出てこなければ文字や写真で意思疎通を。 <br /> 働きたい方にはその人に合った働き方を。
+                            <br />
+                            <br /> このような想いで、私たちほほえみは障がい福祉サービスを提供させていただいております。
+                            <br /> そしてサービスを通じて関わらせていただいた方々から、目標達成することの喜び。人間社会で生きていくことの難しさ。時として希望や絶望を共に経験し、人生を生きる尊さを今もなお学ばせていただいております。
+                            <br /> 目の前の人に、どのようなサポートがあれば今よりも豊かに生活していけるだろうか。
+                            <br /> 私たちは勝手ながらもそんな想いで福祉サービスに勤しんでまいりました。そして日々目の前の人と向き合っていく中、とあるケースに携わらせていただいた時に、自分の価値観やモノの見方が変わっていく感覚を肌で感じるきっかけとなる出来事がありました。
+                            <br /> その時ふと立ち止まり、想いの行き場を探す日々の中で、あることに気づいたのです。
+                            <br />
+                            <br /> 「障がいがあるから支えが必要なのではなく、すべての人に支えは必要なのではないか…」
+                            <br />
+                            <br /> おそらく一般論では当たり前の思考なのかもしれませんが、私たちは支援現場にいると、一つのケースに行き詰まり、視野を狭めていることに気づかずにいることが多いのです。
+                            <br /> 狭かった自分の視野から少しだけ周りを見渡すと、生活の中に悩みや困りを感じている人が、身近にもたくさんいることに気づかされました。
+                            <br /> そして今…
+                            <br />
+                            <br /> 「福祉サービス」を経て「市民サービス」へ
+                            <br />
+                            <br /> 福祉サービスという枠から、外に目を向けると
+                            <br />
+                            <br /> 子育てに悩んでいる人 <br /> 経済生活に不安を抱いている人 <br /> 職場や地域の人間関係に苦しんでいる人 <br /> 引きこもってしまう人 <br /> 漠然と将来に悩んでいる人 <br /> そしてその悩みを抱えている当事者の、家族の悩み…
+                            <br />
+                            <br /> 挙げるだけ挙げれば、キリのない話であることはわかっています。しかし逆に、障がいをお持ちの方でも、サポートを求めず、自立して生活している人がいることもまた一つの事実としてこの目で見てきました。
+                            <br />
+                            <br /> 「本当にサポートが必要な人に、必要なサポートを届けたい」
+                            <br />
+                            <br /> そう強く思うようになりました。 <br /> 障がいの有無に関わらず、私たちは今ある技術やノウハウを活用し、サポートが必要な「市民」の方に対してサポートさせていただく。
+                            <br /> 対象を限定せず、多様な課題に向き合っていきたい。今はそんな想いです。
+                            <br />
+                            <br /> この国の社会保障の観点から見た社会構造は、支える側の人口がどんどん減り、支えられる側の人口がどんどん増え続けます。
+                            <br /> 超高齢社会はすぐそこまで来ているのです。 <br /> 社会保障のあり方はおそらく変わっていき、保障という概念の中に、「投資」という概念が含まれていくと私は思っています。
+                            <br /> 例えば、障がいをお持ちの方でも働ける人は働く、そして可能であれば極力税金を納め、社会を支える側の人になる。そのために訓練が必要だから、社会保障費を活用して福祉サービスで職業訓練を行い、労働者（納税者）になるための「投資」をする。親が子に教育という先行投資をする感覚と同じように、社会保障というシステムを活用し、真にサポートが必要と思われる個人に投資する。
+                            <br /> そんな時代になっていくのだろうと勝手に予想しています。
+                            <br />
+                            <br /> そして、時代の進化とともに万物は変わっていきます。もちろん私たちのサービスの在り方やミッションも、時代に見合った形に変えていきます。そのように万物が進化していく中、「変えたくない」という意思のあるものだけが残り、その残った意思こそが「理念」であるのだと私は信じます。
+                            <br />
+                            <br /> 「苦楽を共にして生きていく」
+                            <br />
+                            <br /> 私たちの理念です。 <br /> どんなに時代や環境が変わろうともこの理念が、未来のほほえみにも存在し続けることを私は願っています。
+                            <br />
+                            <br /> そして、未来を生きる私たち若い世代が、時代の課題と本気で向き合い、本気で行動して道を切り拓いていく。私たちの理念が時として時代と逆行しようとも、私たちよりもっと若い世代が、今の子ども達が未来を描けるように。
+                            <br /> この想いを心に留めながら、私たちほほえみは今日も目の前のミッションと向き合います。
+                        </p>
+                    </div>
+                    <p class="text-right">
+                        社会福祉法人ほほえみ 法人統括施設長 <br />今井　隆太
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="facility1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">カリフラワー | 施設情報</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/1-2.jpg" alt="" class="w-100 mb-4" />
+                            </div>
+                            <div class="col-md-12 mb-5">
+                                <h3>就労移行支援事業 カリフラワー</h3>
+                                <p class="text-left">
+                                    障害をお持ちの方に対し、働く上で必要な知識・能力の向上を目的とした訓練、就職活動支援および驟雨食後の職場定着支援を行います。
+                                </p>
+                                <table class="text-left table table-striped table-light table-borderless">
+                                    <tr>
+                                        <th width="20%">対象者</th>
+                                        <td>
+                                            <ul>
+                                                <li>原則18歳以上から65歳未満の方</li>
+                                                <li>一般就労などを希望する方</li>
+                                                <li>
+                                                    身体障がい、精神障がい、知的障がいや難病のある方
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>利用定員</th>
+                                        <td>10名</td>
+                                    </tr>
+                                </table>
+                                <div class="mb-3">
+                                    <h4>就職までの流れ</h4>
+                                    <img src="images/cauliflower/16.png" alt="" class="img-fluid" />
+                                </div>
+                                <div class="mb-5">
+                                    <h4>訓練イメージ</h4>
+                                    <img src="images/cauliflower/18.png" alt="" class="img-fluid" />
+                                </div>
+                                <h3>就労継続支援A型 カリフラワー</h3>
+                                <table class="text-left table table-striped table-light table-borderless">
+                                    <tr>
+                                        <th width="20%">対象者</th>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    就労移行支援事業を利用したが、企業等の雇用に結びつかなかった方
+                                                </li>
+                                                <li>
+                                                    特別支援学校を卒業して就職活動を行ったが、企業等の雇用に結びつかなかった方
+                                                </li>
+                                                <li>
+                                                    企業等を離職した方や終了経験がある方で現に雇用関係がない方など
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>業務内容</th>
+                                        <td>
+                                            <ul>
+                                                <li>電子部品</li>
+                                                <li>厨房</li>
+                                                <li>清掃（施設内・外）</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>賃金</th>
+                                        <td>青森県の最低賃金が適用されます。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>勤務時間</th>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    月曜日〜金曜日
+                                                    <br />※土・日（祝日は事業所カレンダーによる）<br />
+                                                </li>
+                                                <li>
+                                                    8:50〜15:10 ※業務内容によって変更あり
+                                                    <br />（午前・午後10分・昼休憩60分）実働5時間
+                                                </li>
+                                                <li>
+                                                    8:50〜15:10 ※業務内容によって変更あり
+                                                    <br />（午前・午後10分・昼休憩60分）実働5時間
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>利用定員</th>
+                                        <td>10名</td>
+                                    </tr>
+                                </table>
+                                <img src="images/cauliflower/19.png" alt="" class="img-fluid mb-5" />
+                                <h3>利用の流れ</h3>
+                                <img src="images/cauliflower/20.png" alt="" class="img-fluid mb-5" />
+                                <h3>就労継続支援B型 カリフラワー</h3>
+                                <p class="text-left">
+                                    通常の事業所に雇用されることが困難な方に対し、生産活動やその他の活動の機会を提供し就労に必要な知識及び能力の向上のために必要な訓練・支援を行います。<br />B型は雇用契約を結ばず、電子部品・厨房・その他作業を行って頂き、作業して頂いた分を工賃として支給します。非雇用型の為、利用日数や利用時間についてはご本人の状態に合わせながら利用することが可能です。
+                                </p>
+                                <table class="text-left table table-striped table-light table-borderless">
+                                    <tr>
+                                        <th width="20%">対象者</th>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    就労経験があり、年齢や体力の面で一般企業に雇用されることが困難な方
+                                                </li>
+                                                <li>
+                                                    就労移行支援事業を利用し、就労継続支援B型が適当と判断された方
+                                                </li>
+                                                <li>
+                                                    就労経験・就労移行支援事業の利用が共に無く、50歳に達していて一般就労が困難な方
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>活動内容</th>
+                                        <td>
+                                            <ul>
+                                                <li>電子部品組み立て</li>
+                                                <li>厨房</li>
+                                                <li>余暇活動（月1回程度）</li>
+                                                <li>その他（清掃・環境整備など）</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>工賃</th>
+                                        <td>作業の対価として支払われます。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>利用定員</th>
+                                        <td>40名</td>
+                                    </tr>
+                                </table>
+                                <img src="images/cauliflower/17.png" alt="" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="facility2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">おらんど「all round」| 施設情報</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/1-4.jpg" alt="" class="w-100 mb-4" />
+                            </div>
+                            <div class="col-md-12 mb-5">
+                                <h3>相談支援事業 おらんど</h3>
+                                <p class="text-left">
+                                    障がい者（児）・ご家族などからの福祉に関する様々な相談に応じて、必要な情報の提供及び助言等を行います。また、「サービス等利用計画」の作成などを通じてご本人の自立生活支援を地域の資源を活用しながら展開していきます。
+                                </p>
+                                <table class="text-left table table-striped table-light table-borderless">
+                                    <tr>
+                                        <th width="20%">対象者</th>
+                                        <td>
+                                            主に精神障がい、発達障がい、知的障がい、身体障がいをお持ちの方、又はご家族
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>実施領域</th>
+                                        <td>主に平川市 その他近隣市町村</td>
+                                    </tr>
+                                    <tr>
+                                        <th>費用</th>
+                                        <td>無料</td>
+                                    </tr>
+                                    <tr>
+                                        <th>サービス提供時間</th>
+                                        <td>月曜〜金曜日 8:30〜17:00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>休業日</th>
+                                        <td>
+                                            土曜日、日曜日、祝日
+                                            <br />その他事業所年間カレンダーによる
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>相談窓口</th>
+                                        <td>0172-55-7086 <br />お気軽にお問い合わせください。</td>
+                                    </tr>
+                                </table>
+                                <div class="text-left">
+                                    <p class="text-left">相談支援の流れ</p>
+                                    <img src="images/allaround/10.png" alt="" class="img-fluid" />
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-5">
+                                <h3>生活介護事業 おらんど</h3>
+                                <p class="text-left">
+                                    おらんどの生活介護では・・・<br />「社会参加」「生活動作の自立促進」「身体機能の維持向上」「創作活動での秘めた才能の発掘」「解除サポート」などの活動を行っている通所型の障害福祉サービスです。
+                                </p>
+                                <table class="text-left table table-striped table-light table-borderless">
+                                    <tr>
+                                        <th width="20%">対象者</th>
+                                        <td>
+                                            <ul>
+                                                <li>障害支援区分が区分3以上の方</li>
+                                                <li>
+                                                    生活介護と施設入所支援との併用を希望しており、障害支援区分が区分4（50歳以上は区分3）より低く、指定特定相談支援事業者によるサービス等利用計画を作成する手続きを経た上で、市町村から必要性を認められた方
+                                                </li>
+                                                <li>
+                                                    50歳以上の場合は、障害支援区分が区分2（障害者支援施設に入所する場合は区分3）以上の方
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>活動内容</th>
+                                        <td>
+                                            <ul>
+                                                <li>創作活動または生産活動の機会の提供</li>
+                                                <li>生活等に関する相談及び助言</li>
+                                                <li>
+                                                    生活能力、対人スキルなどの社会生活で必要な能力の向上支援
+                                                </li>
+                                                <li>入浴、排泄および食事等の支援</li>
+                                                <li>
+                                                    その他の身体機能または生活能力の向上のために必要な援助
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>利用時間</th>
+                                        <td>8:45〜15:30</td>
+                                    </tr>
+                                    <tr>
+                                        <th>利用定員</th>
+                                        <td>20名</td>
+                                    </tr>
+                                </table>
+                                <img src="images/allaround/11.png" alt="" class="img-fluid" />
+                            </div>
+                            <div class="col-md-12">
+                                <h3>地域活動支援センター おらんど</h3>
+                                <p class="text-left">
+                                    「地域活動支援センター」は、障害者総合支援法の理念に基づき、利用される方の自立と社会参加、社会復帰を促進することを目的としています。地域活動支援センターおらんどでは、地域で暮らす障がいをお持ちの方やそのご家族の生活を多方面からサポートします。
+                                </p>
+                                <table class="text-left table table-striped table-light table-borderless">
+                                    <tr>
+                                        <th width="20%">対象者</th>
+                                        <td>平川市を中心とした近隣市町村にお住まいの方</td>
+                                    </tr>
+                                    <tr>
+                                        <th>活動内容</th>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    創作的活動や生産活動、地域でのレクリエーション活動を通した社会との交流の機会を提供します。
+                                                </li>
+                                                <li>
+                                                    地域において安心、安全に暮らすために必要な各種相談に応じます。
+                                                </li>
+                                            </ul>
+                                            日常生活、社会生活上の困りごとや不安に関する相談 <br /> 障害福祉サービス等の利用に関する情報提供及び説明 <br /> 各市町村・関係機関との連絡や調整等
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>開所日</th>
+                                        <td>月曜日〜金曜日9:00〜16:00（法人カレンダーによる）</td>
+                                    </tr>
+                                    <tr>
+                                        <th>利用料</th>
+                                        <td>
+                                            原則無料です。ただし、行事参加費は実費になります。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>送迎サービス</th>
+                                        <td>
+                                            1日3回、平川市内の各ポイントを回る無料送迎があります。
+                                            <br />ご利用を希望される方はご相談ください。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>食事提供</th>
+                                        <td>
+                                            日替わり弁当のご注文ができます（実費）。<br />※ご注文は当日朝9:00まで受け付けます。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>利用までの流れ</th>
+                                        <td>登録制です。登録費用は無料。</td>
+                                    </tr>
+                                </table>
+                                <img src="images/allaround/12.png" alt="" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="facility3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        地域活動支援センターおらんど（平川市委託事業） | 施設情報
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/1-3.jpg" alt="" class="w-100 mb-4" />
+                            </div>
+                            <div class="col-md-12">
+                                <img src="images/allaround/1.jpg" alt="" class="w-100 mb-3" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="facility4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">uniメゾン | 施設情報</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/1-5.jpg" alt="" class="w-100" />
+                            </div>
+                            <div class="col-md-12">
+                                <table class="table text-left table-striped table-light table-borderless mb-5">
+                                    <tr>
+                                        <th width="20%">対象者</th>
+                                        <td>
+                                            身体障がい、知的障がい、精神障がい、難病をお持ちの方
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>利用定員</th>
+                                        <td>・UniメゾンⅠ 7名 <br />・UniメゾンⅡ 6名</td>
+                                    </tr>
+                                    <tr>
+                                        <th>施設設備</th>
+                                        <td>
+                                            全室エアコン完備・オール電化。ご利用される方の居室は個室です。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>利用料金</th>
+                                        <td>
+                                            【月額】6万5千円→実費負担5万5千円（市町村からの家賃補助）<br />【内訳】家賃3万円、食費2万円、光熱費1万円、消耗品費5千円
+                                            <br />
+                                            <ul>
+                                                <li>
+                                                    厚生労働大臣の定める基準により算出された学のうち9割が訓練等給付費として市町村から支給されます。
+                                                </li>
+                                                <li>
+                                                    事業者が市町村から代理受領する場合は、サービス料料金の1割を利用者負担金としてお支払いいただいております。
+                                                </li>
+                                                <li>
+                                                    実際にお支払いいただく額は、世帯の収入状況に応じて算出され、サービス、受給者証に記載された額となります。
+                                                </li>
+                                                <li>
+                                                    生活保護、市町村民非課税世帯の入居者は、月1万円の助成（補足給付）が受けられます。家賃、光熱費、食事代、その他を含み実費負担となります。
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <img src="images/uni/2.png" alt="" class="img-fluid mb-5" />
+                                <p>
+                                    <b>朝夕の食事提供も実施しています。世話人や夜間支援のスタッフが交代で生活をサポートしております。</b>
+                                </p>
+                                <h4>サポート体制</h4>
+                                <div class="text-left">
+                                    <p>
+                                        ご利用者1人1人が安心して暮らせる空間の提供を目指し、生活の支援を24時間切れ目mのないサポート体制で提供しております。<br />生活の中で必要とされるスキルの習得、社会生活の中でご本人にとって必要な対人スキルの獲得、さらにご利用者どうしが一緒になって楽しむことができるレジャーや娯楽の企画運営のお手伝いも行っています。
+                                    </p>
+                                    <p>
+                                        【支援スタッフの勤務体制】<br />日勤8:10〜17:00
+                                        <br />夜勤16:00〜翌朝9:00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="facility5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">子ども発達サポートnico | 施設情報</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/nico/1.JPG" alt="" class="w-100" />
+                            </div>
+                            <div class="col-md-12">
+                                <table class="table table-striped table-light table-borderless mb-5">
+                                    <tr>
+                                        <th>営業日</th>
+                                        <td>月〜金</td>
+                                    </tr>
+                                    <tr>
+                                        <th>営業時間</th>
+                                        <td>
+                                            9:00〜17:00 <br />※延長が必要な場合はご相談に応じます。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>定員</th>
+                                        <td>
+                                            ・児童発達支援センター 10名 <br />・放課後等デイサービス 10名
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>送迎</th>
+                                        <td>市内の保育園・小学校を中心に実施します。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>食事提供</th>
+                                        <td>ご希望に応じ給食を提供します。</td>
+                                    </tr>
+                                </table>
+                                <h4>（1）児童発達支援センター</h4>
+                                <p class="text-left">
+                                    未就学のお子様に対し、個別の療育と小集団での活動を提供し、心身ともに健やかな生活が送れるようにサポートします。
+                                </p>
+                                <p class="text-left"><b>1日のスケジュール</b></p>
+                                <table class="table">
+                                    <tr>
+                                        <td>08:00〜</td>
+                                        <td>開所・随時来所、自由遊び、送迎</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00〜</td>
+                                        <td>サービス提供開始、朝の会</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:15〜</td>
+                                        <td>個別の療育、グループ活動</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:40〜</td>
+                                        <td>給食準備・給食、自由遊び</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:40〜</td>
+                                        <td>お昼寝</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:30〜</td>
+                                        <td>起床、おやつ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:10〜</td>
+                                        <td>帰りの会、送迎、自由遊び</td>
+                                    </tr>
+                                    <tr>
+                                        <td>〜18:00</td>
+                                        <td>随時降園</td>
+                                    </tr>
+                                </table>
+                                <h4>（2）放課後等デイサービス</h4>
+                                <p class="text-left">
+                                    6〜18歳のお子様に対し、授業終了後や学校休校日に生活スキルや対人スキルを高めるための個別指導及び小集団での活動を提供します。
+                                </p>
+                                <p class="text-left">
+                                    <b>1日のスケジュール</b> ※長期休みは異なります。
+                                </p>
+                                <table class="table">
+                                    <tr>
+                                        <td>13:00〜</td>
+                                        <td>
+                                            サービス提供開始、随時送迎、個別の療育、グループ活動
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:30〜</td>
+                                        <td>おやつ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:00〜</td>
+                                        <td>個別の療育、グループ活動</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:30〜</td>
+                                        <td>サービス提供終了</td>
+                                    </tr>
+                                    <tr>
+                                        <td>〜18:00</td>
+                                        <td>送迎、随時降園</td>
+                                    </tr>
+                                </table>
+                                <h4>（3）保育所等訪問支援</h4>
+                                <p class="text-left">
+                                    訪問支援員が保育園や幼稚園、学校等、お子様が集う場所へ訪問し、集団生活に適応できるようサポートします。
+                                </p>
+                                <img src="images/nico/2.png" alt="" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ギャラリー1</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="align-self-center col-md-12">
+                                <img src="images/slider/1.JPG" alt="ギャラリー1" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ギャラリー2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="align-self-center col-md-12">
+                                <img src="images/slider/2.JPG" alt="ギャラリー2" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ギャラリー3</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="align-self-center col-md-12">
+                                <img src="images/slider/3.JPG" alt="ギャラリー3" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ギャラリー4</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="align-self-center col-md-12">
+                                <img src="images/slider/4.JPG" alt="ギャラリー4" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ギャラリー5</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="align-self-center col-md-12">
+                                <img src="images/slider/5.JPG" alt="ギャラリー5" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ギャラリー6</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="align-self-center col-md-12">
+                                <img src="images/slider/6.JPG" alt="ギャラリー6" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ギャラリー7</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="align-self-center col-md-12">
+                                <img src="images/slider/7.JPG" alt="ギャラリー7" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ギャラリー8</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="align-self-center col-md-12">
+                                <img src="images/slider/15.JPG" alt="ギャラリー8" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ギャラリー8</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="align-self-center col-md-12">
+                                <img src="images/slider/9.JPG" alt="ギャラリー9" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-orange" data-dismiss="modal">
+                        閉じる
+                    </button>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+        </div>
+    </div>
+    <!-- ./Modal -->
+    <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">プライバシーポリシー</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-left">
+                                <p>
+                                    社会福祉法人ほほえみ（以下，「当法人」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）におけるプライバシー情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。
+                                </p>
+                                <p>第1条（プライバシー情報）</p>
+                                <p>
+                                    プライバシー情報のうち「個人情報」とは，個人情報保護法にいう「個人情報」を指すものとし，生存する個人に関する情報であって，当該情報に含まれる氏名，生年月日，住所，電話番号，連絡先その他の記述等により特定の個人を識別できる情報を指します。 プライバシー情報のうち「履歴情報および特性情報」とは，上記に定める「個人情報」以外のものをいい，ご利用いただいたサービスやご購入いただいた商品，ご覧になったページや広告の履歴，ユーザーが検索された検索キーワード，ご利用日時，ご利用の方法，ご利用環境，郵便番号や性別，職業，年齢，ユーザーのIPアドレス，クッキー情報，位置情報，端末の個体識別情報などを指します。
+                                </p>
+                                <p>第２条（プライバシー情報の収集方法）</p>
+                                <p>
+                                    当法人は，ユーザーが利用登録をする際に氏名，生年月日，住所，電話番号，メールアドレス，銀行口座番号，クレジットカード番号，運転免許証番号などの個人情報をお尋ねすることがあります。また，ユーザーと提携先などとの間でなされたユーザーの個人情報を含む取引記録や，決済に関する情報を当法人の提携先（情報提供元，広告主，広告配信先などを含みます。以下，｢提携先｣といいます。）などから収集することがあります。
+                                    <br /> 当法人は，ユーザーについて，利用したサービスやソフトウエア，購入した商品，閲覧したページや広告の履歴，検索した検索キーワード，利用日時，利用方法，利用環境（携帯端末を通じてご利用の場合の当該端末の通信状態，利用に際しての各種設定情報なども含みます），IPアドレス，クッキー情報，位置情報，端末の個体識別情報などの履歴情報および特性情報を，ユーザーが当法人や提携先のサービスを利用しまたはページを閲覧する際に収集します。
+                                </p>
+                                <p>第３条（個人情報を収集・利用する目的）</p>
+                                <p>
+                                    当法人が個人情報を収集・利用する目的は，以下のとおりです。
+                                    <br /> （1）ユーザーに自分の登録情報の閲覧や修正，利用状況の閲覧を行っていただくために，氏名，住所，連絡先，支払方法などの登録情報，利用されたサービスや購入された商品，およびそれらの代金などに関する情報を表示する目的
+                                    <br /> （2）ユーザーにお知らせや連絡をするためにメールアドレスを利用する場合やユーザーに商品を送付したり必要に応じて連絡したりするため，氏名や住所などの連絡先情報を利用する目的
+                                    <br /> （3）ユーザーの本人確認を行うために，氏名，生年月日，住所，電話番号，銀行口座番号，クレジットカード番号，運転免許証番号，配達証明付き郵便の到達結果などの情報を利用する目的
+                                    <br /> （4）ユーザーに代金を請求するために，購入された商品名や数量，利用されたサービスの種類や期間，回数，請求金額，氏名，住所，銀行口座番号やクレジットカード番号などの支払に関する情報などを利用する目的
+                                    <br /> （5）ユーザーが簡便にデータを入力できるようにするために，当法人に登録されている情報を入力画面に表示させたり，ユーザーのご指示に基づいて他のサービスなど（提携先が提供するものも含みます）に転送したりする目的
+                                    <br /> （6）代金の支払を遅滞したり第三者に損害を発生させたりするなど，本サービスの利用規約に違反したユーザーや，不正・不当な目的でサービスを利用しようとするユーザーの利用をお断りするために，利用態様，氏名や住所など個人を特定するための情報を利用する目的
+                                    <br /> （7）ユーザーからのお問い合わせに対応するために，お問い合わせ内容や代金の請求に関する情報など当法人がユーザーに対してサービスを提供するにあたって必要となる情報や，ユーザーのサービス利用状況，連絡先情報などを利用する目的
+                                    <br /> （8）上記の利用目的に付随する目的
+                                </p>
+                                <p>第４条（個人情報の第三者提供）</p>
+                                <p>
+                                    当法人は，次に掲げる場合を除いて，あらかじめユーザーの同意を得ることなく，第三者に個人情報を提供することはありません。ただし，個人情報保護法その他の法令で認められる場合を除きます。
+                                    <br /> （1）法令に基づく場合 <br /> （2）人の生命，身体または財産の保護のために必要がある場合であって，本人の同意を得ることが困難であるとき
+                                    <br /> （3）公衆衛生の向上または児童の健全な育成の推進のために特に必要がある場合であって，本人の同意を得ることが困難であるとき
+                                    <br /> （4）国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって，本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき
+                                    <br /> （5）予め次の事項を告知あるいは公表をしている場合 <br /> 利用目的に第三者への提供を含むこと <br /> 第三者に提供されるデータの項目 <br /> 第三者への提供の手段または方法 <br /> 本人の求めに応じて個人情報の第三者への提供を停止すること
+                                    <br /> 前項の定めにかかわらず，次に掲げる場合は第三者には該当しないものとします。
+                                    <br /> （1）当法人が利用目的の達成に必要な範囲内において個人情報の取扱いの全部または一部を委託する場合
+                                    <br /> （2）合併その他の事由による事業の承継に伴って個人情報が提供される場合
+                                    <br /> （3）個人情報を特定の者との間で共同して利用する場合であって，その旨並びに共同して利用される個人情報の項目，共同して利用する者の範囲，利用する者の利用目的および当該個人情報の管理について責任を有する者の氏名または名称について，あらかじめ本人に通知し，または本人が容易に知り得る状態に置いているとき
+                                </p>
+                                <p>第５条（個人情報の開示）</p>
+                                <p>
+                                    当法人は，本人から個人情報の開示を求められたときは，本人に対し，遅滞なくこれを開示します。ただし，開示することにより次のいずれかに該当する場合は，その全部または一部を開示しないこともあり，開示しない決定をした場合には，その旨を遅滞なく通知します。なお，個人情報の開示に際しては，１件あたり１，０００円の手数料を申し受けます。
+                                    <br /> （1）本人または第三者の生命，身体，財産その他の権利利益を害するおそれがある場合
+                                    <br /> （2）当法人の業務の適正な実施に著しい支障を及ぼすおそれがある場合
+                                    <br /> （3）その他法令に違反することとなる場合 <br /> 前項の定めにかかわらず，履歴情報および特性情報などの個人情報以外の情報については，原則として開示いたしません。
+                                </p>
+                                <p>第６条（個人情報の訂正および削除）</p>
+                                <p>
+                                    ユーザーは，当法人の保有する自己の個人情報が誤った情報である場合には，当法人が定める手続きにより，当法人に対して個人情報の訂正または削除を請求することができます。
+                                    <br />当法人は，ユーザーから前項の請求を受けてその請求に応じる必要があると判断した場合には，遅滞なく，当該個人情報の訂正または削除を行い，これをユーザーに通知します。
+                                </p>
+                                <p>第７条（個人情報の利用停止等）</p>
+                                <p>
+                                    当法人は，本人から，個人情報が，利用目的の範囲を超えて取り扱われているという理由，または不正の手段により取得されたものであるという理由により，その利用の停止または消去（以下，「利用停止等」といいます。）を求められた場合には，遅滞なく必要な調査を行い，その結果に基づき，個人情報の利用停止等を行い，その旨本人に通知します。ただし，個人情報の利用停止等に多額の費用を有する場合その他利用停止等を行うことが困難な場合であって，本人の権利利益を保護するために必要なこれに代わるべき措置をとれる場合は，この代替策を講じます。
+                                </p>
+                                <p>第８条（プライバシーポリシーの変更）</p>
+                                <p>
+                                    本ポリシーの内容は，ユーザーに通知することなく，変更することができるものとします。
+                                    <br /> 当法人が別途定める場合を除いて，変更後のプライバシーポリシーは，本ウェブサイトに掲載したときから効力を生じるものとします。
+                                </p>
+                                <p>第９条（お問い合わせ窓口）</p>
+                                <p>
+                                    本ポリシーに関するお問い合わせは，下記の窓口までお願いいたします。
+                                </p>
+                                <ul class="list-unstyled">
+                                    <li>住所：〒036-0162 青森県平川市館山前田80番地1</li>
+                                    <li>法人名：社会福祉法人ほほえみ</li>
+                                    <li>Eメールアドレス：syafuku-hohoemi@hohoemi-aomori.com</li>
+                                    <li>電話番号：0172-44-0033</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.modal-body -->
+            <div class="modal-footer">
+                <button type="button" class="btn bg-orange" data-dismiss="modal">
+                    閉じる
+                </button>
+            </div>
+            <!-- /.modal-footer -->
+        </div>
+    </div>
+    <!-- JavaScript dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Script: Smooth scrolling between anchors in a same page -->
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.fatNav.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <!-- Script: Animated entrance -->
+    <script src="js/animate-in.js"></script>
+    <script>
+        $(".slick-slider").slick({
+            dots: true,
+            arrows: false,
+            infinite: true,
+            autoplay: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                },
+            }, {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+            }, {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            }, ],
+        });
+    </script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(document).ready(function() {
+            $.fatNav();
+        });
+    </script>
 </body>
 
 </html>
